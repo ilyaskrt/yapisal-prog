@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
+#
 void deste_yap(int x[4], int y[13],int deste[][2]){
 	int i,j;
 	int a=0;
