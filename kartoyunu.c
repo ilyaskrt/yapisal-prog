@@ -70,10 +70,9 @@ int main(int argc, char *argv[]) {
 			if (oyuncu1[j]!=oyuncu2[j]){
 				if(oyuncu1[j]>oyuncu2[j])
 					bir_oyun_skor++;
-				else if (oyuncu1[j]<oyuncu2[j])
-					iki_oyun_skor++;
 				else 
-					continue;
+					iki_oyun_skor++;
+				
 			}else{
 				if(oyuncu1[j+1]>oyuncu2[j+1])
 					bir_oyun_skor++;
